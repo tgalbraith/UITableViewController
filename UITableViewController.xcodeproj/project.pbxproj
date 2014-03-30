@@ -14,13 +14,13 @@
 		D368B65418E7EBE8004630C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D368B65318E7EBE8004630C0 /* main.m */; };
 		D368B65818E7EBE8004630C0 /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D368B65718E7EBE8004630C0 /* TGAppDelegate.m */; };
 		D368B65B18E7EBE8004630C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D368B65918E7EBE8004630C0 /* Main.storyboard */; };
-		D368B65E18E7EBE8004630C0 /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368B65D18E7EBE8004630C0 /* TGViewController.m */; };
 		D368B66018E7EBE8004630C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D368B65F18E7EBE8004630C0 /* Images.xcassets */; };
 		D368B66718E7EBE8004630C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368B66618E7EBE8004630C0 /* XCTest.framework */; };
 		D368B66818E7EBE8004630C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368B64718E7EBE8004630C0 /* Foundation.framework */; };
 		D368B66918E7EBE8004630C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368B64B18E7EBE8004630C0 /* UIKit.framework */; };
 		D368B67118E7EBE8004630C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D368B66F18E7EBE8004630C0 /* InfoPlist.strings */; };
 		D368B67318E7EBE8004630C0 /* UITableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D368B67218E7EBE8004630C0 /* UITableViewControllerTests.m */; };
+		D368B67E18E7EC24004630C0 /* TGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D368B67D18E7EC24004630C0 /* TGTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		D368B65618E7EBE8004630C0 /* TGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
 		D368B65718E7EBE8004630C0 /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
 		D368B65A18E7EBE8004630C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D368B65C18E7EBE8004630C0 /* TGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGViewController.h; sourceTree = "<group>"; };
-		D368B65D18E7EBE8004630C0 /* TGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGViewController.m; sourceTree = "<group>"; };
 		D368B65F18E7EBE8004630C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D368B66518E7EBE8004630C0 /* UITableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D368B66618E7EBE8004630C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D368B66E18E7EBE8004630C0 /* UITableViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		D368B67018E7EBE8004630C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D368B67218E7EBE8004630C0 /* UITableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerTests.m; sourceTree = "<group>"; };
+		D368B67C18E7EC24004630C0 /* TGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGTableViewController.h; path = ../TGTableViewController.h; sourceTree = "<group>"; };
+		D368B67D18E7EC24004630C0 /* TGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGTableViewController.m; path = ../TGTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				D368B65618E7EBE8004630C0 /* TGAppDelegate.h */,
 				D368B65718E7EBE8004630C0 /* TGAppDelegate.m */,
 				D368B65918E7EBE8004630C0 /* Main.storyboard */,
-				D368B65C18E7EBE8004630C0 /* TGViewController.h */,
-				D368B65D18E7EBE8004630C0 /* TGViewController.m */,
+				D368B67C18E7EC24004630C0 /* TGTableViewController.h */,
+				D368B67D18E7EC24004630C0 /* TGTableViewController.m */,
 				D368B65F18E7EBE8004630C0 /* Images.xcassets */,
 				D368B64E18E7EBE8004630C0 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D368B65E18E7EBE8004630C0 /* TGViewController.m in Sources */,
 				D368B65418E7EBE8004630C0 /* main.m in Sources */,
 				D368B65818E7EBE8004630C0 /* TGAppDelegate.m in Sources */,
+				D368B67E18E7EC24004630C0 /* TGTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

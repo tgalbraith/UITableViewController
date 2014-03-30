@@ -1,5 +1,5 @@
 //
-//  TGViewController.h
+//  TGTableViewController.h
 //  UITableViewController
 //
 //  Created by tg on 3/30/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TGViewController : UIViewController
+@interface TGTableViewController : UITableViewController
 
 @end
